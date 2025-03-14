@@ -1,0 +1,5 @@
+
+
+ideas i sorta have:
+
+{}
