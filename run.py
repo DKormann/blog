@@ -1,3 +1,6 @@
+#this should run on commit
+
+
 import os
 
 os.listdir('posts')
@@ -13,3 +16,4 @@ text = open("indextemplate.md").read().replace("{}",
 ]))
 
 open("index.md", "w").write(text)
+
