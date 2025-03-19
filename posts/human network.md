@@ -1,0 +1,13 @@
+Insect colonies and predatory packs are known to coordinate and communicate in complex ways. The human species went through similar forms of organisation. However Live has found a way of organisation that is incomparably more capable of coordination and organisation and human society seems bound to reach that state too.
+
+Humans are a state building species. By nature they are not well equipped to survive on their own and naturally form small groups. These groups often tend to transform into much bigger tribes and states. Spoken language allows to transmit information much through big distances between individuals much faster than any other life form (Only comparable transmission is the transmission of genetic information through travelling individuals).
+
+From smoke signals to written scrolls carried by messengers to telegraphs and phone calls different technologies enhance the reliability, durability and speed of communication.
+
+The early human tribes operate similar to a pack of wolves or chimps. They work together and coordinate with each other through simple communication. Although again the communication with humans can carry more information probably then any of those animals. When human societies evolve they build states that are more comparable to bee hives or ant colonies in number. There are complex hierarchies and at this point I want to argue that communication is much more complex than anything going on in a group of wolves or even chimpanzees.
+
+Let's look at how fast different entities can react to outside threads. Lets imagine you start disturbing an ant colony and in a couple of seconds to minutes you can see hundreds of ants reacting trying to ward of the attacker. Now imagine a kid is eaten up by wolves in a medieval village. You could expect the news to travel to the village in a couple minutes to hours and mothers to call in their children. By the end of the day or the next a group of hunters might go into the woods. You could imagine similar scenarios with hundreds of people responding but in medieval society that would take longer, but still I would like to argue that from a birds eye view ant colonies and human states have comparable reaction patterns.
+
+There are however life forms that organise in much bigger numbers and can communicate with incomparable speed and information density. The number of entities surpasses the number of humans on earth by three orders of magnitude. Signals can be communicated through the whole and reacted to by trillions in the fraction of a second. Information is transmitted with million times more throughput per second. I am talking about cells living in multicellular organism especially mammals and humans itself. 
+
+
