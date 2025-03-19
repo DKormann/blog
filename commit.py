@@ -15,12 +15,12 @@ msg = ''
 for po in posts:
   if po.endswith('.md') and not po in hist:
     hist.append(po)
-    msg += 'added {po}\n'
+    msg += f'added {po}; '
 
 for h in hist:
   if not h in posts:
     hist.remove(h)
-    msg += 'removed {h}\n'
+    msg += f'removed {h}; '
 
 text = open("indextemplate.md").read().replace("{}",
   '\n'.join([
