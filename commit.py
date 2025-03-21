@@ -9,7 +9,7 @@ os.listdir('posts')
 posts = os.listdir('posts')
 
 for po in posts:
-  if po.endswith('.md') and not po in hist:
+  if po.endswith('.md') and not po.startswith("_") and not po in hist:
     hist.append(po)
 
 for h in hist:
