@@ -34,6 +34,8 @@ text = open("indextemplate.md").read().replace("{}",
     for x in reversed(hist)
 ]))
 
+print(text)
+
 json.dump(hist, open('history.json', 'w'), indent=2)
 open("index.md", "w").write(text)
 
