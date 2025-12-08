@@ -20,7 +20,7 @@ for h in hist:
 
 text = open("indextemplate.md").read().replace("{}",
   '\n'.join([
-    f'* [{x[:-3]}](posts/{x})'
+    f'* [{x[:-3].replace("_", " ")}](posts/{x})'
     for x in reversed(hist)
     if x.endswith('.md')
 ]))
