@@ -1,5 +1,6 @@
 #! /usr/bin/env python3
 
+import datetime
 import os
 import json
 import sys
@@ -12,7 +13,13 @@ posts = os.listdir('posts')
 
 for po in posts:
   if po.endswith('.md') and not po.startswith("_") and not po in hist:
-    hist.append(po)
+    # hist.append(po)
+    # date = datetime.strptime(po.split('.')[0], '%Y-%m-%d')
+    date = datetime.datetime.now()
+    hist.append({
+      "name": po,
+      "date": date.strftime('%B %d, %Y')
+    })
 
 for h in hist:
   if not h in posts:
@@ -20,9 +27,8 @@ for h in hist:
 
 text = open("indextemplate.md").read().replace("{}",
   '\n'.join([
-    f'* [{x[:-3].replace("_", " ")}](posts/{x})'
+    f'* [{x["name"][:-3].replace("_", " ")}](posts/{x["name"]}) [{x["date"]}]'
     for x in reversed(hist)
-    if x.endswith('.md')
 ]))
 
 

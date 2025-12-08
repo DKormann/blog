@@ -3,3 +3,8 @@
 
 # permanent meta language
 
+
+rambling a about a good meta language.
+
+
+

@@ -2,7 +2,7 @@
 
 ideas i sorta have:
 
-* [permanent meta lang](posts/permanent_meta_lang.md)
-* [llm graph](posts/llm_graph.md)
-* [value of trade](posts/value of trade.md)
-* [human network](posts/human network.md)
+* [llm graph](posts/llm_graph.md) [December 08, 2025]
+* [permanent meta lang](posts/permanent_meta_lang.md) [December 08, 2025]
+* [human network](posts/human network.md) [March 19, 2025]
+* [value of trade](posts/value of trade.md) [March 19, 2025]
