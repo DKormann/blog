@@ -12,7 +12,7 @@ os.listdir('posts')
 posts = os.listdir('posts')
 
 for po in posts:
-  if po.endswith('.md') and not po.startswith("_") and not po in hist:
+  if po.endswith('.md') and not po.startswith("_") and not po in map(lambda x: x["name"], hist):
     # hist.append(po)
     # date = datetime.strptime(po.split('.')[0], '%Y-%m-%d')
     date = datetime.datetime.now()
