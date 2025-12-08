@@ -7,7 +7,7 @@ import sys
 
 hist = json.loads(open('history.json').read())
 
-hnames = map(lambda x: x["name"], hist)
+hnames = list(map(lambda x: x["name"], hist))
 
 print(hnames)
 
