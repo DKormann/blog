@@ -32,7 +32,7 @@ text = open("indextemplate.md").read().replace("{}",
 ]))
 
 
-json.dump(hist, open('history.json', 'w'))
+json.dump(hist, open('history.json', 'w'), indent=2)
 
 open("index.md", "w").write(text)
 
