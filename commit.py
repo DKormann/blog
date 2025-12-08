@@ -20,6 +20,8 @@ print(posts)
 for po in posts:
   if po.endswith('.md') and not po.startswith("_") and not po in hnames:
 
+    print("adding", po)
+
     date = datetime.datetime.now()
     hist.append({
       "name": po,
