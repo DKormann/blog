@@ -7,6 +7,10 @@ import sys
 
 hist = json.loads(open('history.json').read())
 
+hnames = map(lambda x: x["name"], hist)
+
+print(hnames)
+
 os.listdir('posts')
 
 posts = os.listdir('posts')
@@ -14,9 +18,8 @@ posts = os.listdir('posts')
 print(posts)
 
 for po in posts:
-  if po.endswith('.md') and not po.startswith("_") and not po in map(lambda x: x["name"], hist):
-    # hist.append(po)
-    # date = datetime.strptime(po.split('.')[0], '%Y-%m-%d')
+  if po.endswith('.md') and not po.startswith("_") and not po in hnames:
+
     date = datetime.datetime.now()
     hist.append({
       "name": po,
