@@ -6,30 +6,26 @@ import json
 import sys
 
 hist = json.loads(open('history.json').read())
-
 hnames = list(map(lambda x: x["name"], hist))
-
-print(hnames)
-
 os.listdir('posts')
-
 posts = os.listdir('posts')
 
-print(posts)
+
+changed = False
 
 for po in posts:
   if po.endswith('.md') and not po.startswith("_") and not po in hnames:
-
-    print("adding", po)
-
+    changed = True
     date = datetime.datetime.now()
     hist.append({
       "name": po,
       "date": date.strftime('%B %d, %Y')
     })
 
+
 for h in hist:
-  if not h in posts:
+  if not h["name"] in posts:
+    changed = True
     hist.remove(h)
 
 text = open("indextemplate.md").read().replace("{}",
@@ -38,11 +34,8 @@ text = open("indextemplate.md").read().replace("{}",
     for x in reversed(hist)
 ]))
 
-
 json.dump(hist, open('history.json', 'w'), indent=2)
-
 open("index.md", "w").write(text)
-
 
 os.system(f'git add .')
 os.system(f'git commit -m "blog update"')
