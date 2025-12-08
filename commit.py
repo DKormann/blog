@@ -11,6 +11,8 @@ os.listdir('posts')
 
 posts = os.listdir('posts')
 
+print(posts)
+
 for po in posts:
   if po.endswith('.md') and not po.startswith("_") and not po in map(lambda x: x["name"], hist):
     # hist.append(po)
