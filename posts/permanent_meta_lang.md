@@ -9,7 +9,7 @@ i love programming
 
 world is computer
 
-someone: a field comes into its own when it finds its own language.
+Pedro Domingos: a field comes into its own when it finds its own language.
 
 language seems for us to be a crystalization of (intuitive) knowledge
 
@@ -51,8 +51,6 @@ use cases:
 
  * verify ai generated code
  * different programms develped independently interact without errors. (by posting full types of their respective API)
- <!-- *  -->
-
 
 
 ### zk proof
@@ -62,7 +60,8 @@ An efficient zk proof is fast to proof and very fast to verify. (verification do
 promising: [nockchain](https://www.nockchain.org/)
 
 
+
 ### native emulation
 
-
+Executing ast runtime generated AST at speed. this is interesting for hosting client code for something like a operating system or just hosting different functions on the internet.
 
